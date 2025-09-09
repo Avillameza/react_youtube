@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.cocktail-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.favorite-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 400px;
+  background-color: rgb(253,180, 70);
+  list-style-type: none;
+}
+
+.card {
+  width: 300px;
+  height: 350 px;
+  box-shadow: 0 6px 15px 6px rgb(211,211,211);
+  margin-bottom: 40px;
+}
+
+.card img{
+  width: 100%
+}
